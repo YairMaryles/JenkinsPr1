@@ -5,8 +5,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd myapp
-                pip install -r requirements.txt
+                echo "doing build stuff.."
                 '''
             }
         }
@@ -14,7 +13,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing testing stuff..."
+                echo "doing test stuff.."
                 '''
             }
         }
