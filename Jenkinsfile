@@ -14,7 +14,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "Testing"
+                echo "doing testing stuff..."
                 '''
             }
         }
