@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                python3 main
+                python3 main.py
                 echo "doing test stuff.."
                 '''
             }
